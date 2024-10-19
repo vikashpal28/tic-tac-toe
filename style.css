@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(15, 16, 17);
+    padding: 0;
+}
+
+h1{
+    color: rgb(255, 217, 0);
+    font-size: 90px;
+    text-align: center;
+    background-color: rgb(227, 16, 16);
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 60px;
+        
+}
+
+.mainbox{
+    height: 600px;
+    width: 600px;
+    background-color: rgb(28, 7, 182);
+    position: relative;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    
+}
+
+.box{
+    height: 190px;
+    width: 190px;
+    background-color: rgb(0, 255, 34);
+    border: 1px solid black;
+    border-radius: 20px;
+    position: relative;
+    left: 3.5px;
+    text-align: center;
+    font-size: 80px;
+    line-height: 200px;
+    color: rgb(232, 16, 16);
+
+
+}
+.box:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    border: 2px solid rgb(247, 247, 13);
+}
+
+#reset-btn{
+    background-color: rgb(244, 255, 127);
+    font-size: 50px;
+    position: relative;
+    top: 90px;
+    border-radius: 10px;
+    border: none;
+}
+
+.lower-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.msg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 5px;
+}
+
+#new-btn{
+    background-color: rgb(255, 214, 127);
+    font-size: 50px;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    top: 20px;
+}
+.upper-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#msg{
+    color: chartreuse;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+.hide{
+    display: none;
+}
